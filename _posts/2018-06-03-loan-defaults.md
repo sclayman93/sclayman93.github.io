@@ -46,6 +46,8 @@ I had to analyse every feature in the dataset to make sure that it was relevant 
 
 When analysing the data, one can see the growth of the company over the ten year period. In the wake of the 2008 financial crash, many people started to lose trust with the banks and move to other financial platforms such as peer-to-peer lenders. This is shown by the steady increase in number of loans and average loan amount year on year. This reached a peak in early 2016 at which point the company faced a few scandals and the number of loans started to drop.
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/Lending Club/loans_over_time.png" alt="The number of loans and average loan amount over time">
+
 When looking at the loans per state, it is no surprise to see that California has the largest total loan amount (nearly $4 billion) over the ten year period given that Lending Club is a San Francisco-based organisation. Other highly populated states such as New York, Florida, and Texas also had large total loan amounts of around $2 billion.
 
 I visualised all numerical features to look at their distributions, check for outliers, and also check for correlation. I removed correlated features to avoid multicollinearity in my models.
