@@ -143,7 +143,7 @@ The median household income data from the US Census did not end up being a stron
 
 My results show that interest rate is the single biggest factor predicting loan defaults, with debt-to-income ratio (DTI) and term also being strong predictors. Defaulted loans have a higher average interest rate than fully paid loans. Defaulted loans also have a higher average DTI than fully paid loans. DTI is the ratio of the borrower’s monthly payments/debts to his monthly income. The term is the length of the repayment period and there are two options that a borrower can pick, either 36 months or 60 months. 60 month term has a much higher default rate than 36 month term.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Lending Club/int_rate.png" alt="interest rate">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Lending Club/int_rate.png" alt="interest rate" height="20" width="10">
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Lending Club/DTI.png" alt="DTI">
 
