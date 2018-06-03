@@ -4,7 +4,7 @@ date: 2018-06-03
 tags: [loan defaults]
 header:
   image: "/images/Lending Club/Lending_Club.png"
-excerpt: "Machine Learning, Lending Club, Data Science"  
+excerpt: "A project to predict Lending Club loan defaults"  
 mathjax: "true"
 ---
 
@@ -59,7 +59,7 @@ Because most people do not default on their loans, one limitation I had from the
 
 Models are never going to be 100% accurate and this is especially true with loan defaults when there are so many unknowns in the borrowers’ lives that could potentially have an impact on their finances. Therefore, any models will inevitably get some predictions wrong and either incorrectly predict a loan to default when it would end up actually fully paying (false positive) or incorrectly predict a loan to fully pay when it actually ends up defaulting (false negative). In the case of loans, it is preferable to have more false positives than false negatives in order to minimise the number of loans that actually end up defaulting and thereby creating a conservative model. It is for this reason that recall was the one of the primary metrics that I used to determine the models’ performances, where recall is defined as:
 
-$$recall = true(+ve) / true(+ve) + false(-ve)$$
+$$recall = \frac{true(+ve)}{true(+ve) + false(-ve)}$$
 
 As the models require numerical input, I had to binarise all categorical variables, i.e. create dummy variables, whereby each class in a categorical feature would become its own binary feature. I then had to split the dataset into training and testing sets in order to train the model and then test it on new unseen data to measure its performance. As I had data covering a decade, I trained the model on pre-2017 data and tested it on 2017 data.
 
